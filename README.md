@@ -2,7 +2,8 @@
 
 
 ### INTRODUCCIÓN 
-El presente código proporciona una aplicación de escritorio en Java usando JavaFX. La aplicación es un editor de texto simple con funcionalidades de archivo y edición, así como una opción de ayuda. Aquí está la descripción básica y los componentes clave que se le implementó al código:
+El presente código proporciona una aplicación de escritorio en Java usando JavaFX. La aplicación es un editor de texto simple con funcionalidades de archivo y edición.
+Aquí está la descripción básica y los componentes clave que se le implementó al código:
 
 ### DESARROLLO
 La aplicación crea una ventana con un área de texto y un menú. El menú permite a los usuarios crear un nuevo archivo, abrir un archivo existente, guardar el contenido del área de texto en un archivo, y salir de la aplicación. También incluye opciones de cortar, copiar y pegar texto, y un ítem de ayuda que muestra información sobre la aplicación.
