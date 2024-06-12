@@ -2,7 +2,7 @@
 
 
 ### INTRODUCCIÓN 
-El código proporciona una aplicación de escritorio en Java usando JavaFX. La aplicación es un editor de texto simple con funcionalidades de archivo y edición, así como una opción de ayuda. Aquí está la descripción básica y los componentes clave del código:
+El presente código proporciona una aplicación de escritorio en Java usando JavaFX. La aplicación es un editor de texto simple con funcionalidades de archivo y edición, así como una opción de ayuda. Aquí está la descripción básica y los componentes clave que se le implementó al código:
 
 ### DESARROLLO
 La aplicación crea una ventana con un área de texto y un menú. El menú permite a los usuarios crear un nuevo archivo, abrir un archivo existente, guardar el contenido del área de texto en un archivo, y salir de la aplicación. También incluye opciones de cortar, copiar y pegar texto, y un ítem de ayuda que muestra información sobre la aplicación.
@@ -10,7 +10,7 @@ La aplicación crea una ventana con un área de texto y un menú. El menú permi
 ### COMPORTAMIENTOS DEL CÓDIGO
    - Define el paquete `application`.
    - Importa las clases necesarias de JavaFX y Java IO para la aplicación.
-   - La clase `Main` hereda de `Application`, la clase base para aplicaciones JavaFX.
+   - La clase `Main` son heredadas de `Application`, siendo la clase base para aplicaciones JavaFX.
    - Define un área de texto (`TextArea`) donde se editará el contenido del archivo.
    - Método principal que configura y muestra la interfaz gráfica.
    - Crea un `BorderPane` como el layout principal.
@@ -28,12 +28,12 @@ La aplicación crea una ventana con un área de texto y un menú. El menú permi
 
 
 
-   - Define el menú "Archivo" con opciones para crear, abrir, guardar y salir.
-   - Define las acciones para los ítems del menú "Archivo".
-   - Define el menú "Editar" con opciones para cortar, copiar y pegar.
-    - Define las acciones para los ítems del menú "Editar".
+   - Define y muestra el menú "Archivo" con opciones para crear, abrir, guardar y salir.
+   - Define y muestra las acciones para los ítems del menú "Archivo".
+   - Define y muestra el menú "Editar" con opciones para cortar, copiar y pegar.
+    - Establece las acciones para los ítems del menú "Editar".
 - Define el menú "Ayuda" con una opción para mostrar información sobre la aplicación.
--	Crear y Mostrar la Escena.
+-	Crea y Muestra la Escena.
 
 
 
@@ -50,9 +50,9 @@ La aplicación crea una ventana con un área de texto y un menú. El menú permi
 
 
 - El punto de entrada de la aplicación que llama al método `launch`es para iniciar la aplicación JavaFX.
-- Posee un centro de ayuda.
 - Imprime por consola las opciones a las cuales hemos accedido.
 
 
 ### CONCLUSIÓN
-El código implementa un editor de texto básico en JavaFX con funcionalidades de manejo de archivos (nuevo, abrir, guardar, salir), edición de texto (cortar, copiar, pegar) y una sección de ayuda. La interfaz gráfica se estructura usando un `BorderPane`, con una barra de menú en la parte superior y un área de texto en el centro.
+
+La interfaz gráfica se estructura usando un `BorderPane`, con una barra de menú en la parte superior y un área de texto en el centro. es similar a un pequeño prototipo que se lo realiza para verificar el funcionamiento de cada componente.
